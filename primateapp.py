@@ -3,11 +3,11 @@ import pandas as pd
 import plotly.express as px
 from PIL import Image
 
-# file paths
+# File paths
 logo_path = r"C:\Users\daisy\Downloads\bblogo.png"
 csv_path = r"C:\Users\daisy\Downloads\primate_data - Sheet1.csv"
 
-# Page configuration
+# Page configuration with custom icon (use path string)
 st.set_page_config(
     page_title="Primate Life History Explorer",
     page_icon=logo_path,
@@ -86,7 +86,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# logo and title side by side
+# Header: logo and title side by side
 col_logo, col_title = st.columns([1, 6], gap="small")
 with col_logo:
     st.image(Image.open(logo_path), width=100)
@@ -94,15 +94,16 @@ with col_title:
     st.markdown("<h1>Primate Life History Explorer</h1>", unsafe_allow_html=True)
     st.markdown("Explore life history traits of primates in an interactive dashboard.")
 
-# load data
+# Load data
 df = pd.read_csv(csv_path)
 df.columns = df.columns.str.strip()
 
-# sidebar for species selection
+# Sidebar for species selection
 st.sidebar.header("Choose a Primate Species")
 common_names = df["Common Name"].dropna().unique()
 selected_common = st.sidebar.selectbox("Species:", sorted(common_names))
 
+# Get data for selected species
 row = df[df["Common Name"] == selected_common].iloc[0]
 binomial_name = row.get("Species", "Not available")
 Suborder = row.get("Suborder", "Not available")
@@ -308,7 +309,7 @@ with col_image:
         )
 
 st.divider()
-#  trait categories
+# Define trait categories
 trait_categories = {
     "Reproductive Traits": [
         "Gestation Length (days)",
@@ -330,6 +331,7 @@ trait_categories = {
     "Social": ["Mating System","Group Size"]
 }
 
+# Display traits in expanders
 for category, traits in trait_categories.items():
     with st.expander(category, expanded=True):
         cols = st.columns(2)
@@ -343,7 +345,7 @@ for category, traits in trait_categories.items():
             )
 
 st.divider()
-# trait selection for comparison plot
+# Numeric trait selection for comparison plot
 st.subheader("Compare Traits Across Species")
 
 def is_mostly_numeric(series, threshold=0.6):
