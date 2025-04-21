@@ -1,0 +1,33 @@
+Suborder,Superfamily,Family,Species,Common Name,Group Size,Mating System ,Female Weight (kg),Male Weight (kg),Gestation Length (days),Neonate Weight (g),Offspring per Litter,Weaning Age (days),Esterous Cycle Length (days),Male Age at First Breeding (Monogamousths),Female Age at Sexual Maturity (Monogamousths),Max Recorded Lifespan (years),Interbirth Interval (days),Male Age at Sexual Maturity,Neonatal Brain Weight (g),Adult Brain Weight (g)
+Strepsirrhini,Lemuroidea,Lemurinae,Lemur catta,Ring-tailed lemur,15.3,Multi-Male,2.5,2.9,135,88.2,1.2,105,39,30,-,27.1,511,30,8.8,25.6
+Strepsirrhini,Lemuroidea,Lemurinae,Eulemur fulvus,Brown lemur,9.2,Multi-Male,1.9,2,118,81.4,1,135,-,27.8,10,30.8,547,23.3,10.7,25.2
+Strepsirrhini,Lemuroidea,Lemurinae,Eulemur macaco,Black lemur,8.4,Multi-Male,2.5,2.5,128,100,1,-,33,-,24,27.1,-,-,-,25.6
+Strepsirrhini,Lemuroidea,Lemurinae,Eulemur mongoz,Mongoose lemur,3,Monogamous,1.8,1.8,128,-,1.1,-,37,-,-,-,-,-,-,21.8
+Strepsirrhini,Lemuroidea,Lemuridae,Varecia variegata,Black-and-white ruffed lemur,5.3,Monogamous,3.1,3.6,102,107.5,2,90,30,23.5,5.2,-,365,-,10.6,34.2
+Strepsirrhini,Lemuroidea,Lemuridae,Hapalemur griseus,Eastern lesser bamboo lemur,2.6,Monogamous,0.987,0.903,140,48,1,-,-,28.6,-,12.1,-,24,-,14.7
+Strepsirrhini,Lemuroidea,Lepilemuridae,Lepilemur mustelinus,Weasel sportive lemur,1,Uni-Male,0.64,0.61,135,34.5,1,75,-,-,21,-,-,21,2.9,9.5
+Strepsirrhini,Lemuroidea,Cheirogaleinae,Microcebus murinus,Gray mouse lemur,1,Uni-Male,0.084,0.086,62,6.5,1.9,40,50,11.5,9.5,15.5,312,-,-,1.8
+Strepsirrhini,Indrioidea,Indriidae,Indri indri,Indri,3.1,Monogamous,10.5,10.5,160,300,1,365,-,-,-,-,912,-,-,34.5
+Strepsirrhini,Indrioidea,Indriidae,Avahi laniger,Eastern woolly lemur,2.5,Monogamous,1.3,1.3,235,-,1,150,-,-,-,-,365,-,-,10
+Strepsirrhini,Indrioidea,Indriidae,Propithecus verreauxi,Verreaux's sifaka,6,Multi-Male,3.5,3.7,140,107,1,180,-,-,30,-,360,30,-,27.5
+Strepsirrhini,Daubentonoidea,Daubentoniidae,Daubentonia madagascariensis,Aye-aye,2,Uni-Male,2.8,2.8,160,-,1,-,-,-,29,-,912,-,-,45.2
+Strepsirrhini,Lorisidae,Lorisidae,Loris tardigradus,Red slender loris,1,Uni-Male,0.26,0.29,163,12.7,1.6,-,40,-,13,12,-,-,2.7,6.7
+Strepsirrhini,Lorisidae,Lorisidae,Nycticebus coucang,Sunda slow loris,1,Uni-Male,1.2,1.32,193,49.3,1,90,40,-,-,14.5,-,-,4,10
+Strepsirrhini,Lorisidae,Lorisidae,Arctocebus calabarensis,Calabar angwantibo,1,Uni-Male,0.31,0.32,134,25,1,115,39,-,9.5,9.5,-,-,2.3,7.7
+Strepsirrhini,Lorisidae,Lorisidae,Perodicticus potto,Potto,1,Uni-Male,1.08,1.02,193,46.5,1.1,150,39,25,18,10,349,18,-,14.3
+Haplorhini,Cercopithecoidea,Cercopithecidae,Macaca fascicularis,Long-tailed macaque,27,Multi-Male,4.1,5.9,162,346,1,420,28,46.3,-,-,390,-,-,69.2
+Haplorhini,Cercopithecoidea,Cercopithecidae,Macaca nemestrina,Pig-tailed macaque,18.3,Multi-Male,7.8,10.4,167,473,1,365,-,47.3,35,26.3,405,-,66,106
+Haplorhini,Cercopithecoidea,Cercopithecidae,Semnopithecus entellus,Hanuman langur,25,Multi-Male/Uni-Male,11.4,18.4,168,-,1,-,22,51,42,20,-,-,-,135.2
+Haplorhini,Cercopithecoidea,Cercopithecidae,Cercopithecus mitis,Blue monkey,16.3,Uni-Male,4.4,7.6,140,402,1,-,30,55.5,62,-,413,-,-,75
+Haplorhini,Cercopithecoidea,Cercopithecidae,Papio anubis,Olive baboon,40,Multi-Male,12,21,180,1068,1,420,31,-,-,-,420,-,-,175.1
+Haplorhini,Cercopithecoidea,Cercopithecidae,Papio cynocephalus,Yellow baboon,55.4,Multi-Male,15,20,175,854,1,-,31,73,51,-,630,73.8,73.5,169.1
+Haplorhini,Cercopithecoidea,Cercopithecidae,Mandrillus leucophaeus,Drill,17,Uni-Male,10,17,176,-,1,-,33,60,42,28.6,450,-,-,152.7
+Haplorhini,Cercopithecoidea,Cercopithecidae,Mandrillus sphinx,Mandrill,13.9,Uni-Male,11.5,25,173,613,1,-,35,60.5,-,29.1,523,-,-,159.4
+Haplorhini,Cercopithecoidea,Cercopithecidae,Theropithecus gelada,Gelada,10,Uni-Male,13.6,20.5,170,464,1,450,34,54,49.5,-,525,-,-,131.9
+Haplorhini,Cercopithecoidea,Cercopithecidae,Colobus polykomos,King colobus,10.2,Multi-Male/Uni-Male,8.4,10.4,170,597,1,-,-,102,-,26,380,-,38.5,76.7
+Haplorhini,Hominoidea,Hylobatidae,Hylobates lar,Lar gibbon,3.9,Monogamous,5.3,5.7,205,410.5,1,730,27,111.7,108,31.5,969,78,50.1,107.7
+Haplorhini,Hominoidea,Hylobatidae,Symphalangus syndactylus,Siamang,3.6,Monogamous,10.6,10.9,231,517,1,-,-,-,-,-,-,-,-,121.7
+Haplorhini,Hominoidea,Hominidae,Pongo pygmaeus,Bornean orangutan,1,Multi-Male/Uni-Male,37,69,260,"1,728.00",1,"1,095",30,128,84,50,"1,025",115.5,170.3,413.3
+Haplorhini,Hominoidea,Hominidae,Pan troglodytes,Chimpanzee,60,Multi-Male,31.1,41.6,228,"1,756.00",1,"1,460",36,138,118,44.5,"1,825",156,128,410
+Haplorhini,Hominoidea,Hominidae,Gorilla gorilla,Western gorilla,7,Multi-Male,93,160,256,"2,110.00",1,1583,28,118.2,78,39.3,"1,460",120,227,505.9
+Haplorhini,Hominoidea,Hominidae,Homo sapiens,Human,-,Monogamous ,54.8,62.2,267,"3,300.00",1,720,28,232,198,70,"1,440",-,384,"1,250.00"
