@@ -114,8 +114,8 @@ family = row.get("Family", "Not available")
 col_info, col_image = st.columns([3, 2])
 
 with col_info:
-    st.subheader(f"{selected_common}")
-    st.subheader(f"{binomial_name}")
+    st.markdown(f"<h2 style='font-size: 2.2em; color: #2f4f4f;'>{selected_common}</h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='font-size: 1.9em; font-style: italic; color: #3b4e3b;'>{binomial_name}</h2>", unsafe_allow_html=True)
     st.markdown(f"**Suborder**: {Suborder}")
     st.markdown(f"**Superfamily**: {Superfamily}")
     st.markdown(f"**Family**: {family}")
