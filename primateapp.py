@@ -226,20 +226,20 @@ with col_image:
         )
     elif selected_common.lower() == "lar gibbon":
         st.image(
-            "https://upload.wikimedia.org/wikipedia/commons/0/08/Gibbon_MichaelMalz.jpg",
-            caption="Photo by Michael Malz, CC BY-SA 3.0, via Wikimedia Commons",
+            "https://upload.wikimedia.org/wikipedia/commons/8/89/Group_of_White_Handed_Gibbon_at_zoo.jpg",
+            caption="Photo by วิชิต กองคำ, CC BY-SA 3.0, via Wikimedia Commons",
             use_container_width=True
         )
     elif selected_common.lower() == "long-tailed macaque":
         st.image(
-            "https://upload.wikimedia.org/wikipedia/commons/d/d2/Long-tailed_Macaque_with_infant%2C_Labuk_Bay.jpg",
-            caption="Photo by Charlesjsharp, CC BY-SA 4.0, via Wikimedia Commons",
+            "https://upload.wikimedia.org/wikipedia/commons/5/52/Macaca_fascicularis%2C_Ubud_Monkey_Forest%2C_Bali%2C_20220822_1012_9935.jpg",
+            caption="Photo by Jakub Hałun, CC BY-SA 4.0, via Wikimedia Commons",
             use_container_width=True
         )
     elif selected_common.lower() == "mandrill":
         st.image(
-            "https://upload.wikimedia.org/wikipedia/commons/1/18/Mandrillus_sphinx_-_Buffalo_Zoo.jpg",
-            caption="Photo by Dave Pape, Public domain, via Wikimedia Commons",
+            "https://upload.wikimedia.org/wikipedia/commons/4/4d/Mandrill_Mandrillus_sphinx_Zoo_Augsburg-02.jpg",
+            caption="Photo by Rufus46, CC BY-SA 3.0, via Wikimedia Commons",
             use_container_width=True
         )
     elif selected_common.lower() == "mongoose lemur":
@@ -262,8 +262,8 @@ with col_image:
         )
     elif selected_common.lower() == "potto":
         st.image(
-            "https://upload.wikimedia.org/wikipedia/commons/8/81/Perodicticus_potto_1.jpg",
-            caption="Photo by Tom Junek, CC BY 4.0, via Wikimedia Commons",
+            "https://upload.wikimedia.org/wikipedia/commons/3/35/West_African_potto_%28Perodicticus_potto%29_Ankasa.jpg",
+            caption="Photo by Charles J. Sharp, CC BY 4.0, via Wikimedia Commons",
             use_container_width=True
         )
     elif selected_common.lower() == "red slender loris":
@@ -300,6 +300,12 @@ with col_image:
         st.image(
             "https://upload.wikimedia.org/wikipedia/commons/f/fb/Lepilemur_mustelinus.jpg",
             caption="Photo by Brendansoloughlin, CC0, via Wikimedia Commons",
+            use_container_width=True
+        )
+    elif selected_common.lower() == "western gorilla":
+        st.image(
+            "https://upload.wikimedia.org/wikipedia/commons/c/ce/Les_Gorilles_du_Parc_National_d%27odzala_Kokoua.jpg",
+            caption="Photo by Ekassa, CC BY-SA 4.0, via Wikimedia Commons",
             use_container_width=True
         )
     elif selected_common.lower() == "yellow baboon":
